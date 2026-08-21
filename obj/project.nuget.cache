@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HJyMej8eGvs=",
+  "success": true,
+  "projectFilePath": "/home/quito/github-projs/kanban/kanban.csproj",
+  "expectedPackageFiles": [
+    "/home/quito/.nuget/packages/microsoft.aspnetcore.openapi/10.0.11/microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "/home/quito/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

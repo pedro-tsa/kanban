@@ -1,0 +1,6 @@
+@kanban_HostAddress = http://localhost:5077
+
+GET {{kanban_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
