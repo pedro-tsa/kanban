@@ -14,8 +14,8 @@ public class Card
     public int Position { get; set; }
 
     
-    //Which cards can be accessed by which roles
-    public ICollection<CardRole> CardRoles { get; set; } = new List<CardRole>();
+    //Which roles can acess this card
+    public ICollection<CardRole> CardRole { get; set; } = new List<CardRole>();
 
     public int ColumnId { get; set; }
     public Column Column { get; set; } = null!;

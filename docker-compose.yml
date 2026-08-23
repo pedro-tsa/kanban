@@ -1,0 +1,25 @@
+﻿services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: kanban
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: kanbanSenha
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+  
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=kanban;Username=postgres;Password=kanbanSenha"
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "8080:8080"
+volumes:
+  pgdata:

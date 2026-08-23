@@ -13,7 +13,9 @@ public class Project
     public User Owner { get; set; } = null!;
 
     //Collaborators of the project
-    public ICollection<User> Users { get; set; } = new List<User>();
+    public ICollection<User> Collaborators { get; set; } = new List<User>();
+    
+    public ICollection<User> Favorites { get; set; } = new List<User>();
     public ICollection<Column> Columns { get; set; } = new List<Column>();
     public ICollection<Role> Roles { get; set; } = new List<Role>();
     public bool IsPrivate { get; set; }
