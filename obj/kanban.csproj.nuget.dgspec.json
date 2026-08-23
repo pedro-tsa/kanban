@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj": {}
+    "C:\\Users\\segur\\Documents\\github-projects\\kanban\\kanban.csproj": {}
   },
   "projects": {
-    "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj": {
+    "C:\\Users\\segur\\Documents\\github-projects\\kanban\\kanban.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj",
+        "projectUniqueName": "C:\\Users\\segur\\Documents\\github-projects\\kanban\\kanban.csproj",
         "projectName": "kanban",
-        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj",
+        "projectPath": "C:\\Users\\segur\\Documents\\github-projects\\kanban\\kanban.csproj",
         "packagesPath": "C:\\Users\\segur\\.nuget\\packages\\",
-        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\obj\\",
+        "outputPath": "C:\\Users\\segur\\Documents\\github-projects\\kanban\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\segur\\AppData\\Roaming\\NuGet\\NuGet.Config"

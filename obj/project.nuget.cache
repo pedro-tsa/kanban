@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zuskP2+pTys=",
+  "dgSpecHash": "nBF8IDAIL94=",
   "success": true,
-  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj",
+  "projectFilePath": "C:\\Users\\segur\\Documents\\github-projects\\kanban\\kanban.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\segur\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\segur\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
