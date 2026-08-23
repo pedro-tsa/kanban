@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/quito/github-projs/kanban/kanban.csproj": {}
+    "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj": {}
   },
   "projects": {
-    "/home/quito/github-projs/kanban/kanban.csproj": {
+    "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/quito/github-projs/kanban/kanban.csproj",
+        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj",
         "projectName": "kanban",
-        "projectPath": "/home/quito/github-projs/kanban/kanban.csproj",
-        "packagesPath": "/home/quito/.nuget/packages/",
-        "outputPath": "/home/quito/github-projs/kanban/obj/",
+        "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\kanban.csproj",
+        "packagesPath": "C:\\Users\\segur\\.nuget\\packages\\",
+        "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\quito\\github-projs\\kanban\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/quito/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\segur\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,15 +39,26 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.3, )"
             }
           },
           "imports": [
@@ -69,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
