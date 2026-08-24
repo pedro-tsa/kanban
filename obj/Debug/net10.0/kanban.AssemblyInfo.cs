@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("28f5e03a-717c-4fff-a100-3f934ce9bb94")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("kanban")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37e5aa5f02eb457408f2541147adf912e26da0bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbdd252e5987ac9e7a07f8674176a5308d2bc4d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("kanban")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kanban")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
