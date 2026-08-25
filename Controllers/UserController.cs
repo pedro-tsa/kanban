@@ -1,4 +1,5 @@
-﻿using Kanban.Data;
+﻿using System.Security.Claims;
+using Kanban.Data;
 using Microsoft.AspNetCore.Mvc;
 using Kanban.DTO;
 using Kanban.Models;
@@ -35,7 +36,7 @@ public class UserController : ControllerBase
             ProfilePicture = user.ProfilePicture
         };
     }
-
+    /*
     [HttpPost]
     public async Task<IActionResult> Create(CreateUserDTO user)
     {
@@ -57,7 +58,8 @@ public class UserController : ControllerBase
         
         return CreatedAtAction(nameof(GetById), new  { id = finalUser.Id }, user);
     }
-
+    */
+    
     [HttpPut("{id}")]
     public async Task<IActionResult> Edit(int id, UserDTO user)
     {
@@ -83,7 +85,12 @@ public class UserController : ControllerBase
             return NotFound("User not found.");
         }
 
-        _dbContext.Remove(user);
+        var loggedInUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if(loggedInUserId != id.ToString())
+            return Forbid();
+        
+        _dbContext.Users.Remove(user);
         await _dbContext.SaveChangesAsync();
         return NoContent();
     }
